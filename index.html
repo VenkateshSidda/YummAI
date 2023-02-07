@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display%3A400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton%3A700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans%3A400%2C500%2C700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC%3A700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo-container">
+          <img src="Logo_YummAI.png" alt="Logo">
+        </div>
+        <div class="menu-container">
+          <ul>
+            <li><a href="#">Recipes</a>
+                <ul>
+                  <li><p>Popular</p>
+                      <a href="#" class="popular">Easy Meal in 10 mins</a>
+                      <a href="#" class="popular">Low Calories</a>
+                      <a href="#" class="popular">Holiday Meal</a>
+                      <a href="#" class="popular">Work Lunch</a>
+                      <a href="#" class="popular">Dry Fruit Milkshakes</a>
+                  </li>
+                  <li><p>Diet</p>
+                      <a href="#" class="diet">Vegeterian</a>
+                      <a href="#" class="diet">Non-Vegeterian</a>
+                      <a href="#" class="diet">No Diary</a>
+                      <a href="#" class="diet">Keto</a>
+                  </li>
+                  <li><p>Meals</p>
+                      <a href="#" class="meals">Breakfast</a>
+                      <a href="#" class="meals">Lunch</a>
+                      <a href="#" class="meals">Dinner</a>
+                      <a href="#" class="meals">Desserts</a>
+                  </li>
+                  <div>
+                  <h1>Contribute to YummAI Collection</h1>
+                  <h2>Share your Recipe with the World...</h2>
+                  <a href="#">Submit your Recipe</a>
+                </div>
+                </ul>
+            </li>
+            <li><a href="#">Tips and Tricks</a></li>
+            <li><a href="#">Meal Plans</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="search-wrapper">
+          <div class="input-holder">
+              <input type="text" class="search-input" placeholder="Type to search" />
+              <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+          </div>
+          <span class="close" onclick="searchToggle(this, event);"></span>
+        </div>
+        <button class="login-button">Login</button>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="script.js"></script>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="Frame"></div>
+        <p1>Welcome to YummAI!!!</p1>
+        <h1>Cooking Made Easy</h1>
+        <p2>Discover New Recipe, Learn cooking techniques and take the guess work out of meal planning</p2>
+        <button class="browse-recipes">Browse Recipes</button>
+      </div>
+    </section> 
+    <section class="popular-categories">
+      <h2>Popular Categories</h2>
+          <a href="#" class="data-card1">
+            <h3>South Indian</h3>
+          </a>
+          <a href="#" class="data-card2">
+            <h3>North Indian</h3>
+          </a>   
+          <a href="#" class="data-card3">
+            <h3>Desserts</h3>
+          </a>   
+          <a href="#" class="data-card4">
+            <h3>Vegeterian</h3>
+          </a>
+          <a href="#" class="data-card5">
+            <h3>Milkshakes</h3>
+          </a>  
+      <a class="browse_all">View All</a>
+    </section>
+    <section class="Super-Delicious">
+      <h2>Super Delicious</h2>
+        <div class="product-list">
+          <div class="product1">
+            <img src="cheesepasta.png" alt="Product 1">
+            <h3>Spinach and Cheese Pasta</h3>
+              <div class="product-timer">
+                <img src="stopwatch.png" alt="Timer">
+                <p>10 Mins</p>
+              </div>
+              <div class="ratings">
+                <div class="stars"></div>
+                <div class="stars1"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+                <div class="stars4"></div>
+                <p>5,074 Ratings</p>
+              </div>    
+          </div>
+          <div class="product2">
+            <img src="biriyani.png" alt="Product 1">
+            <h3>Chicken Dum Biriyani</h3>
+              <div class="product-timer">
+                <img src="stopwatch.png" alt="Timer">
+                <p>30 Mins</p>
+              </div>
+              <div class="ratings">
+                <div class="stars"></div>
+                <div class="stars1"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+                <div class="stars4"></div>
+                <p>15,099 Ratings</p>
+              </div>    
+          </div>
+          <div class="product3">
+            <img src="butterchicken.png" alt="Product 1">
+            <h3>Butter Chicken</h3>
+              <div class="product-timer">
+                <img src="stopwatch.png" alt="Timer">
+                <p>20 Mins</p>
+              </div>
+              <div class="ratings">
+                <div class="stars"></div>
+                <div class="stars1"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+                <div class="stars4"></div>
+                <p>3,400 Ratings</p>
+              </div>    
+          </div>
+          <div class="product4">
+            <img src="cheesepasta.png" alt="Product 1">
+            <h3>Spinach and Cheese Pasta</h3>
+              <div class="product-timer">
+                <img src="stopwatch.png" alt="Timer">
+                <p>10 Mins</p>
+              </div>
+              <div class="ratings">
+                <div class="stars"></div>
+                <div class="stars1"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+                <div class="stars4"></div>
+                <p>5,074 Ratings</p>
+              </div>    
+          </div>
+        </div> 
+        <a class="browse_all">View All</a>
+    </section>
+    <section class="Whats-New">
+          <h2>What's New</h2>
+          <div class="product-list">
+            <div class="product1">
+              <img src="cheesepasta.png" alt="Product 1">
+              <h3>Spinach and Cheese Pasta</h3>
+                <div class="product-timer">
+                  <img src="stopwatch.png" alt="Timer">
+                  <p>10 Mins</p>
+                </div>
+                <div class="ratings">
+                  <div class="stars"></div>
+                  <div class="stars1"></div>
+                  <div class="stars2"></div>
+                  <div class="stars3"></div>
+                  <div class="stars4"></div>
+                  <p>5,074 Ratings</p>
+                </div>    
+            </div>
+            <div class="product2">
+              <img src="biriyani.png" alt="Product 1">
+              <h3>Chicken Dum Biriyani</h3>
+                <div class="product-timer">
+                  <img src="stopwatch.png" alt="Timer">
+                  <p>30 Mins</p>
+                </div>
+                <div class="ratings">
+                  <div class="stars"></div>
+                  <div class="stars1"></div>
+                  <div class="stars2"></div>
+                  <div class="stars3"></div>
+                  <div class="stars4"></div>
+                  <p>15,099 Ratings</p>
+                </div>    
+            </div>
+            <div class="product3">
+              <img src="butterchicken.png" alt="Product 1">
+              <h3>Butter Chicken</h3>
+                <div class="product-timer">
+                  <img src="stopwatch.png" alt="Timer">
+                  <p>20 Mins</p>
+                </div>
+                <div class="ratings">
+                  <div class="stars"></div>
+                  <div class="stars1"></div>
+                  <div class="stars2"></div>
+                  <div class="stars3"></div>
+                  <div class="stars4"></div>
+                  <p>3,400 Ratings</p>
+                </div>    
+            </div>
+            <div class="product4">
+              <img src="cheesepasta.png" alt="Product 1">
+              <h3>Spinach and Cheese Pasta</h3>
+                <div class="product-timer">
+                  <img src="stopwatch.png" alt="Timer">
+                  <p>10 Mins</p>
+                </div>
+                <div class="ratings">
+                  <div class="stars"></div>
+                  <div class="stars1"></div>
+                  <div class="stars2"></div>
+                  <div class="stars3"></div>
+                  <div class="stars4"></div>
+                  <p>5,074 Ratings</p>
+                </div>    
+            </div>
+          </div> 
+        <a class="browse_all">View All</a>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <img src="Logo_YummAI.png" alt="Company Logo" class="footer-logo">
+          <div class="social-media">
+            <img class="fb-icon" src="Facebook.png" alt="Facebook"/>
+            <img class="twitter-icon" src="Twitter.png" alt="Twitter"/>
+            <img class="instagram-icon" src="Instagram.png" alt="Instagram"/>
+            <img class="youtube-icon" src="YouTube.png" alt="YouTube"/>
+          </div>
+          <p>We are so excited to share YummAI with everyone!.<br> 
+            Our mission is to create healthy, delicious recipes that make preparing meals quick and easy.
+            At YummAI, we understand that time is precious and that many people do not have the opportunity to prepare meals from scratch. 
+            That’s why we provide recipe ideas that are easy, nutritious, and delicious.
+            Our recipes are also designed to be budget-friendly, so that everyone can enjoy a healthy, home-cooked meal even when money is tight.
+          </p>
+        </div>
+        <div class="footer-top-end"></div>
+        <div class="Footer-Columns">
+          <p class="Footer-Header01">YummAI</p>
+            <div class="Footer-Links01">
+              <ul>
+                <li><a href="#">Cuisines</a></li>
+                <li><a href="#">Meals</a></li>
+                <li><a href="#">Diet</a></li>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Meal Plans</a></li>
+                </ul>
+              </div>
+          <p class="Footer-Header02">Company</p>
+            <div class="Footer-Links02">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div> 
+          <p class="Footer-Header03">Support</p>
+            <div class="Footer-Links03">
+              <ul>
+                <li><a href="#">Getting Started</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Send Feedback</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">User Agreement</a></li>
+              </ul>
+            </div>
+        </div>
+        <p class="Subscribe">Subscribe to our Newsletter</p>
+            <p class="Text">Deliciousness to your Inbox...
+            Enjoy Weekly hand picked Recipes and Recommendations
+            </p>
+            <div class="input-group">
+              <input type="email" class="input" id="Email" name="Email" placeholder="user@YummAI.in" autocomplete="off">
+              <input class="button--submit" value="Subscribe" type="submit">
+          </div>
+      </div>
+    </footer>      
+    <p id="output"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
